@@ -191,4 +191,4 @@ This project successfully demonstrates the design and simulation of fundamental 
 ---
 ##Author
 
-N MANOJ SAI KRISHNA
+M RAHUL SRINIVAS
