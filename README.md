@@ -115,19 +115,19 @@ Testbenches were developed to verify the functionality of each sequential circui
 
 ### D Flip-Flop
 
-![D Flip-Flop Waveform](Screenshots/D_FF_Output.jpg)
+![D Flip-Flop Waveform](screenshots/D_FF_Output.jpg)
 
 ### JK Flip-Flop
 
-![JK Flip-Flop Waveform](/Screenshots/JK_FF_Output.jpg)
+![JK Flip-Flop Waveform](/screenshots/JK_FF_Output.jpg)
 
 ### 4-Bit Register
 
-![Register Waveform](/Screenshots/Register_Output.jpg)
+![Register Waveform](/screenshots/Register_Output.jpg)
 
 ### 4-Bit Counter
 
-![Counter Waveform](/Screenshots/Counter_Output.jpg)
+![Counter Waveform](/screenshots/Counter_Output.jpg)
 
 ---
 
