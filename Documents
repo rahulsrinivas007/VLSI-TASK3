@@ -1,0 +1,149 @@
+# Task_03 – Verilog RTL Design of Sequential Circuits and Flip-Flops
+
+## Objective
+
+This project demonstrates the design and simulation of fundamental sequential circuits using Verilog HDL. The objective is to understand clock-driven digital systems, memory elements, and sequential logic behavior through the implementation of Flip-Flops, Registers, and Counters.
+
+---
+
+## Tools Used
+
+* Verilog HDL
+* EDA Playground
+* Icarus Verilog
+* GTKWave
+* ModelSim (Optional)
+
+---
+
+## Sequential Circuits Implemented
+
+### 1. D Flip-Flop
+
+A D Flip-Flop stores a single bit of data and transfers the input value to the output on the rising edge of the clock signal.
+
+#### Features
+
+* Edge-triggered operation
+* Stores one-bit data
+* Synchronous sequential circuit
+
+---
+
+### 2. JK Flip-Flop
+
+A JK Flip-Flop is an enhanced flip-flop that eliminates the invalid state found in SR Flip-Flops.
+
+#### Operations
+
+| J | K | Q(next)   |
+| - | - | --------- |
+| 0 | 0 | No Change |
+| 0 | 1 | Reset     |
+| 1 | 0 | Set       |
+| 1 | 1 | Toggle    |
+
+---
+
+### 3. 4-Bit Register
+
+A register stores multiple bits of data using flip-flops.
+
+#### Features
+
+* 4-bit data storage
+* Clock-driven operation
+* Parallel data transfer
+
+---
+
+### 4. 4-Bit Binary Counter
+
+A counter increments its value on every positive clock edge.
+
+#### Features
+
+* Counts from 0000 to 1111
+* Automatic rollover
+* Sequential counting operation
+
+---
+
+## Testbench Development
+
+Separate testbenches were created for verifying the functionality of each sequential circuit.
+
+### Verification Performed
+
+* Clock generation
+* Input stimulus application
+* Output monitoring
+* Functional validation
+
+---
+
+## Simulation Results
+
+The designs were simulated using Verilog simulation tools and analyzed using waveform viewers.
+
+### Observations
+
+* Output changes only on the clock edge.
+* D Flip-Flop correctly follows input data.
+* JK Flip-Flop performs Set, Reset, Hold, and Toggle operations.
+* Register stores and updates multi-bit data correctly.
+* Counter increments sequentially with each clock pulse.
+
+---
+
+## Project Structure
+
+```text
+Task_03/
+│
+├── Task Files/
+│   ├── count_tb.v
+│   ├── counter.v
+│   ├── d_flipflop_tb
+│   ├── d_flipflop.v
+│   ├── JK_FLIPFLOP.v
+│   ├── JK_FLIPFLOP_TB.v
+│   ├── register_tb.v
+│   └── registers.v
+│
+├── Screenshots/
+│   ├── D_FF_Output.png
+│   ├── JK_FF_Output.png
+│   ├── Register_Output.png
+│   └── Counter_Output.png
+│
+└── Document
+└── README.md
+```
+
+---
+
+## Learning Outcomes
+
+Through this project, the following concepts were understood:
+
+* Sequential Logic Design
+* Clock-Based Digital Circuits
+* D and JK Flip-Flops
+* Registers and Counters
+* RTL Coding in Verilog
+* Testbench Development
+* Waveform Analysis
+* Simulation and Verification
+
+---
+
+## Conclusion
+
+This project successfully demonstrates the implementation and verification of basic sequential circuits using Verilog HDL. The simulations confirm the correct behavior of flip-flops, registers, and counters, providing practical experience in RTL design, verification, and waveform analysis used in VLSI and FPGA development.
+
+---
+
+##Author
+
+N MANOJ SAI KRISHNA
